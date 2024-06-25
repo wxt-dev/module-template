@@ -12,7 +12,7 @@ Find and replace all on all files (CMD+SHIFT+F):
 
 # My Module
 
-My new Nuxt module for doing amazing things.
+My new WXT module for doing amazing things.
 
 ## Features
 
