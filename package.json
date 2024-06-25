@@ -17,12 +17,11 @@
   },
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "packageManager": "pnpm@9.4.0",
   "scripts": {
     "dev": "wxt",
+    "dev:build": "wxt build",
     "check": "check",
     "build": "unbuild",
     "prepack": "unbuild",

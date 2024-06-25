@@ -46,26 +46,19 @@ That's it! You can now use My Module in your WXT extension ✨
 
   ```bash
   # Install dependencies
-  npm install
+  pnpm install
 
   # Generate type stubs
-  npm run dev:prepare
+  pnpm wxt prepare
 
-  # Develop with the playground
-  npm run dev
+  # Develop test extension
+  pnpm dev
 
-  # Build the playground
-  npm run dev:build
+  # Build the test extension
+  pnpm dev:build
 
-  # Run ESLint
-  npm run lint
-
-  # Run Vitest
-  npm run test
-  npm run test:watch
-
-  # Release new version
-  npm run release
+  # Run prettier, publint, and type checks
+  pnpm check
   ```
 
 </details>
