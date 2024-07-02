@@ -25,7 +25,7 @@
     "check": "check",
     "build": "unbuild",
     "prepack": "unbuild",
-    "postinstall": "wxt prepare"
+    "prepare": "wxt prepare"
   },
   "peerDependencies": {
     "wxt": ">=0.18.10"
